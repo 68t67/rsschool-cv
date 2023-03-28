@@ -25,5 +25,4 @@
 maksimkorhov9@gmail.com
 
 ## **Английский язык**
----
 уровень английского языка: Pre-Intermediate

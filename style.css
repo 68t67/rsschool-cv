@@ -1,0 +1,112 @@
+/* @import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display-swap'); */
+*
+{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Georgia;
+}
+body
+{
+    background: lightgoldenrodyellow; 
+    display: flex;
+    justify-content: center;
+    align-items: center; min-height: 100vh;
+}
+.container
+{
+    position: relative; 
+    width: 100%;
+    max-width: 1000px;
+    min-height: 1000px;
+    background:#eab96e;
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 1fr 3fr; 
+    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1)
+}
+.container .left_side
+{
+    position: relative;
+    background: #913000;
+    padding: 40px;
+}
+.avaplace
+{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(252, 237, 207, 0.598);
+} 
+.avaplace h2
+{
+    color: #ffffff;
+    margin-top: 10px;
+    text-align:center;
+    font-family: Georgia;
+}
+.avaplace h2 span
+{
+    font-family: Georgia;
+    font-weight: 100;
+    font-size: 0.9em;
+}
+.avaplace h3 
+{
+    color: #ffffff;
+    margin-top: 100px;
+    font-family: Georgia;
+}
+.continf
+{
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(252, 237, 207, 0.598);
+}
+.numb
+{
+    Line-height: 2;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left:40px ;
+}
+.continf h3
+{
+    color: #ffffff;
+    margin-left: 15px;
+    margin-top: 100px;
+    font-family: Georgia;
+
+}
+.eng
+{
+    margin-top: 20px;
+    margin-left:40px ;
+    color: #ffffff;
+}
+.container .right_side
+{
+    position: relative;
+    background: #ffffff;
+    padding: 40px;
+}
+.abmy{
+    margin-top: 80px;
+    color:#913000;
+    Line-height: 1.5;
+}
+.O{
+    margin-top: 30px;
+
+}
+.Work
+{
+    margin-top: 100px;
+    color:#913000;
+    Line-height: 1.5;
+}
+
+.I{
+    margin-top: 30px; 
+}
